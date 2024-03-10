@@ -1,0 +1,159 @@
+.container {
+    width: 100%;
+    border: 2px solid red;
+    margin-left: 30px;
+    padding: 50px;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  
+  .whoweR {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    align-items: center;
+  }
+  
+  .whoweR > div {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .whoweR h1 {
+    font-size: 48px;
+    color: #0a38f2;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .whoweR h1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 2px;
+    background-color: #ff0000; /* Red underline */
+  }
+  
+  .whoweR h3 {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+  }
+  
+  .whoweR button {
+    padding: 10px 20px;
+    background-color: #2391d3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .whoweR button:hover {
+    background-color: #1b6ca8;
+  }
+  
+  .whoweR img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%; /* Curved shape */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  /* --------------------OUR SERVICES CONTAINER ----------------*/
+
+  .ourServices-container {
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 50px;
+  }
+  
+  .ourServices h1 {
+    font-size: 36px;
+    color: #333;
+  }
+  .ourServices h1::after{
+    content: "";
+    background-color: #ff0000; /* Red underline */
+  }
+  .serviceCards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .serviceCards div {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .serviceCards img {
+    width: 300px;
+    height: 100px ;
+    /* max-width: 300px; */
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .serviceCards div:hover img {
+    transform: scale(1.1);
+  }
+  
+  .serviceCards div .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .serviceCards div:hover .overlay {
+    opacity: 1;
+  }
+  
+  .serviceCards div h3,
+  .serviceCards div p,
+  .serviceCards div button {
+    color: #2d2b2b;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .serviceCards div h3 {
+    font-size: 24px;
+  }
+  
+  .serviceCards div p {
+    font-size: 16px;
+  }
+  
+  .serviceCards div button {
+    background-color: #2391d3;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    /* position: absolute; */
+    transition: background-color 0.3s ease;
+  }
+  
+  .serviceCards div button:hover {
+    background-color: #1b6ca8;
+  }
+/*---------------------------------------------------------*/  

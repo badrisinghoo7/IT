@@ -14,9 +14,9 @@ const Navbar = () => {
         </div>
         <div className="nav-links">
           <NavLink to="/">Home</NavLink>
-          <NavLink to="/about">About Us</NavLink>
+          <NavLink to="/about-us-page">About Us</NavLink>
           <NavLink to="/services">Services</NavLink>
-          <NavLink to="/contact">Contact Us</NavLink>
+          <NavLink to="/contact-us-page">Contact Us</NavLink>
         </div>
         <div className="contact-container">
           <img src={contact} alt="image" className="contact-image" />

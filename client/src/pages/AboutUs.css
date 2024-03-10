@@ -1,0 +1,164 @@
+/* Global Styles */
+/* body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+} */
+
+.container {
+  max-width: 1500px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header and Section Headings */
+.aboutUsHeading, .whoWeRHeading, .leaderShipHeading {
+  font-size: 48px;
+  line-height: 1.1;
+  color: #2391d3;
+  text-align: center;
+  font-family: 'Jost', sans-serif;
+  margin: 20px 0 40px 0;
+}
+
+/* Paragraph Styles */
+p {
+  font-size: 15px;
+  line-height: 22px;
+  font-family: "Poppins", sans-serif;
+  color: #212529;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+/* About Section Styles */
+.aboutparagraph {
+  margin-top: 90px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 120px;
+}
+
+.aboutparagraph > div {
+  width: 45%;
+}
+
+.aboutparagraph > div img {
+  width: 100%;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+/* Who We Are Section Styles */
+.whoWeR {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 70px;
+}
+
+.whoWeRdivs {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+
+}
+
+.whoWeRdivs > div {
+  text-align: center;
+  width: 100%;
+  margin-left: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-bottom: 20px;
+}
+.whoWeRdivs > div:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.whoWeRdivs > div img {
+  width: 100px;
+  height: 80px;
+  margin: auto;
+  margin-top: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.whoWeRdivs > div h1 {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: 'Jost', sans-serif;
+  color: #2391d3;
+  text-align: center;
+}
+
+.whoWeRdivs > div p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+  color: #212529;
+  
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* Leadership Section Styles */
+.leaderShip {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 70px;
+}
+
+.leaderShipdivs {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.leaderShipdivs > div {
+  text-align: center;
+  width: 31%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-bottom: 20px;
+}
+
+.leaderShipdivs > div img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  align-items: center;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.leaderShipdivs > div h1 {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  color: #212529;
+  font-size: 17px;
+  line-height: 22px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.leaderShipdivs > div p {
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #212529;
+  font-size: 17px;
+  line-height: 22px;
+  font-weight: 400;
+}
